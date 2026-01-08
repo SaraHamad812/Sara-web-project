@@ -1,0 +1,14 @@
+.cart-page button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cart-page td button {
+  background: #f0f0f0;
+}
+
+.cart-page td button:hover {
+  background: #e0e0e0;
+}

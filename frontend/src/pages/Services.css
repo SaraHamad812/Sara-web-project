@@ -1,0 +1,135 @@
+/* Page background */
+.services-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom right, #fff1f6, #fdecef);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: #c84b7c;
+}
+
+/* Card style */
+.card {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.6s ease;
+}
+
+/* Form */
+.service-form {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.service-form input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.service-form input:focus {
+  outline: none;
+  border-color: #d26c9e;
+  box-shadow: 0 0 0 3px rgba(210, 108, 158, 0.2);
+}
+
+.service-form button {
+  background: linear-gradient(135deg, #d26c9e, #c84b7c);
+  color: white;
+  padding: 14px 26px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.service-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(200, 75, 124, 0.4);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background: #f8dce7;
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  color: #b23c6f;
+  font-weight: 600;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+  transition: 0.3s;
+}
+
+tbody tr:hover {
+  background: #fff5f8;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.actions .edit {
+  background: #ffe0ef;
+  color: #b23c6f;
+}
+
+.actions .edit:hover {
+  background: #ffc1db;
+}
+
+.actions .delete {
+  background: #ffe6e6;
+  color: #c0392b;
+}
+
+.actions .delete:hover {
+  background: #ffcccc;
+}

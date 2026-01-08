@@ -1,0 +1,88 @@
+.booking-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #fff1f6, #fdecef);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.booking-page h1 {
+  color: #c84b7c;
+  margin-bottom: 30px;
+}
+
+.booking-card {
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  width: 350px;
+  box-shadow: 0 15px 30px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-card input,
+.booking-card select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+.booking-card button {
+  background: linear-gradient(135deg, #d26c9e, #c84b7c);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.booking-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(200,75,124,.4);
+}
+.booking-list {
+  margin-top: 40px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.booking-list table {
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.booking-list th,
+.booking-list td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.booking-list th {
+  background: #f8dce7;
+  color: #b23c6f;
+}
+.booking-list button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.booking-list button:first-child {
+  background: #ffe0ef;
+}
+
+.booking-list button:last-child {
+  background: #ffd6d6;
+}
